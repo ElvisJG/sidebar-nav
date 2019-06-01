@@ -1,0 +1,22 @@
+@mixin flex-center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// Color Theme
+$raspberry: #c51f5d;
+$space-gray: #343d46;
+$grayish: #7e8889;
+$vl-gray: #bdc7c1;
+$bc: #5a666b;
+
+// Mobile
+$breakpoint-phone: 500px;
+$breakpoint-tablet: 768px;
